@@ -514,9 +514,13 @@ button {
 }
 
 .main-menu .main-menu__list>li.current>a,
-.main-menu .main-menu__list>li:hover>a,
+.main-menu .main-menu__list>li:hover>a {
+    /* color: var(--alori-base); */
+    color:#5C73D6;
+}
 .stricky-header .main-menu__list>li.current>a {
-    color: var(--alori-base);
+    /* color: var(--alori-base); */
+    color:#CCAF33;
 }
 
 .main-menu .main-menu__list>li.dropdown a,
@@ -3492,7 +3496,7 @@ button {
 }
 
 .footer-widget__about-logo a img {
-    max-width: 176px;
+    max-width: 116px;
 }
 
 .footer-widget__about-text {
@@ -4457,7 +4461,7 @@ button {
 .about-one--two--about {
     position: relative;
     display: block;
-    padding: 120px 0px;
+    padding: 120px 0px 240px;
 }
 
 .about-one--two--about .about-one__content-list li .icon {
@@ -4722,6 +4726,9 @@ button {
     left: 0px;
     max-width: 390px;
     width: 100%;
+}
+.services-single-one__content-bottom-img img{
+    width:100%;
 }
 
 .services-single-one__content-bottom-list {
@@ -6277,6 +6284,7 @@ button {
 
 .contact-page__get-in-touch ul li .icon.bg2 {
     background: rgb(123, 207, 153);
+    width: 220px;
 }
 
 .contact-page__get-in-touch ul li .icon span::before {
@@ -6511,6 +6519,7 @@ button {
     width: 320px;
     height: 100%;
     background: var(--alori-gray);
+    opacity:0.8;    
     z-index: 2147483647;
     transition: all 700ms ease 0s;
 }
@@ -6578,7 +6587,7 @@ button {
 
 .hidden-bar .logo img {
     display: inline-block;
-    max-width: 100%;
+    max-width: 50%;
 }
 
 .hiddenbar-about-us {
@@ -6798,7 +6807,7 @@ button {
 }
 
 .stricky-header.main-menu .stricky-one-logo img {
-    max-width: 136px;
+    max-width: 86px;
 }
 
 .stricky-header .main-menu__list>li>a {
@@ -11033,7 +11042,7 @@ button {
     width: 17px;
     height: 17px;
     background-color: transparent;
-    border: 2px solid rgb(249, 172, 115);
+    border: 2px solid #f9ac73;
     border-radius: 0%;
     font-family: "Font Awesome 5 Free";
     font-weight: 900;
