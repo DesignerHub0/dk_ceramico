@@ -6661,6 +6661,8 @@ button {
 .hidden-bar .contact-info-box ul li p a {
     color: rgba(255, 255, 255, 0.7);
     transition: all 200ms linear 0.1s;
+    word-break:break-word;
+
 }
 
 .hidden-bar .contact-info-box ul li p a:hover {
